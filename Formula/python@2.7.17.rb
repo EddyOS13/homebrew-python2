@@ -7,8 +7,6 @@ class PythonAT2717 < Formula
   head "https://github.com/python/cpython.git", :branch => "2.7"
 
   bottle do
-    sha256 "e0ddb198a05fb010c6317892e92a84cee2792e715d585cb4b06005f5be86a497" => :arm64_monterey
-    sha256 "5a3d8a5bf18c13bce7c3d4eff430bbe368bbb90654eee05315ef9ca51a2b05f7" => :arm64_big_sur
     sha256 "9003ba90da12f509084675de2ac639356aa929f99483115250b7cfb154ade246" => :monterey
     sha256 "1f30194a47851b4e00abef864460d7522dd4662b03c39834e089b2b429ef541c" => :big_sur
     sha256 "d4cb99ba879e231fe4527f171f6fd41bdd36a805421ad31d0987e83af5738b98" => :catalina
