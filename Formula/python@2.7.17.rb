@@ -5,11 +5,7 @@ class PythonAT2717 < Formula
   sha256 "4d43f033cdbd0aa7b7023c81b0e986fd11e653b5248dac9144d508f11812ba41"
   revision 1
   head "https://github.com/python/cpython.git", :branch => "2.7"
-
-  bottle do
-    sha256 "9003ba90da12f509084675de2ac639356aa929f99483115250b7cfb154ade246" => :monterey
-    sha256 "1f30194a47851b4e00abef864460d7522dd4662b03c39834e089b2b429ef541c" => :big_sur
-    sha256 "d4cb99ba879e231fe4527f171f6fd41bdd36a805421ad31d0987e83af5738b98" => :catalina
+  
   end
 
   # setuptools remembers the build flags python is built with and uses them to
