@@ -6,8 +6,6 @@ class PythonAT2717 < Formula
   revision 1
   head "https://github.com/python/cpython.git", :branch => "2.7"
   
-  end
-
   # setuptools remembers the build flags python is built with and uses them to
   # build packages later. Xcode-only systems need different flags.
   pour_bottle? do
