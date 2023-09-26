@@ -13,7 +13,7 @@ jobs:
         run: |
           set -e
           brew update
-          HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/pr0d1r2/homebrew-python2"
+          HOMEBREW_TAP_DIR="/opt/Homebrew/Library/Taps/pr0d1r2/homebrew-python2"
           mkdir -p "$HOMEBREW_TAP_DIR"
           rm -rf "$HOMEBREW_TAP_DIR"
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
